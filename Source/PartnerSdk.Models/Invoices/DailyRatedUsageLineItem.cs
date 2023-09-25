@@ -296,5 +296,20 @@ namespace Microsoft.Store.PartnerCenter.Models.Invoices
         {
             get { return BillingProvider.Marketplace; }
         }
+
+        /// <summary>
+        /// A unique identifier for each Azure Savings Plan.
+        /// </summary>
+        public string BenefitOrderId { get; set; }
+
+        /// <summary>
+        /// A unique identifier, which is similar to the Azure reservation order ID. You can match this with the ReservationOrderID on the invoice reconciliation to link the monthly cost to the daily charges.
+        /// </summary>
+        public string BenefitId { get; set; }
+
+        /// <summary>
+        /// It has the value “SavingsPlan” to make it easy to find Azure Savings Plan transactions.
+        /// </summary>
+        public BenefitType BenefitType { get; set; }
     }
 }
