@@ -5,7 +5,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Microsoft.Store.PartnerCenter.Extensions</RootNamespace>
     <AssemblyName>Microsoft.Store.PartnerCenter.Extensions</AssemblyName>
-        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackRelease>True</PackRelease>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <RunCodeAnalysis>false</RunCodeAnalysis>
