@@ -7,6 +7,8 @@
     <AssemblyName>Microsoft.Store.PartnerCenter.Extensions</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <PackRelease>True</PackRelease>
+    <NuspecFile>PartnerSdk.Extensions.nuspec</NuspecFile>
+    <PackRelease>True</PackRelease>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <RunCodeAnalysis>false</RunCodeAnalysis>

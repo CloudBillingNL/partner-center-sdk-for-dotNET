@@ -150,6 +150,12 @@ Before getting started, you will need:
     ```
 7. Finally, you can run the project by selecting "**Debug** > **Start Debugging**" from the menu bar or by pressing the F5 key on your keyboard. This will launch the application and allow you to interact with it.
 
+## Package
+
+```
+dotnet pack .\Source\PartnerSdk.Extensions\PartnerSdk.Extensions.csproj -o ..\Packages
+```
+
 ## Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](./CODE_OF_CONDUCT.md). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq) or contact opencode@microsoft.com with any additional questions or comments.
